@@ -24,6 +24,7 @@ Array.from(buttons).forEach((button)=>{
       else if(e.target.innerHTML == '%'){
         string +='/100';
         string=eval(string);
+        string +='';
         document.querySelector('input').value = string;
       }
       else if(e.target.innerHTML == 'DEL'){
